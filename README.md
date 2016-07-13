@@ -2,10 +2,10 @@
 
 [![Travis Widget]][Travis] [![Release Widget]][Release] [![Report Widget]][Report] [![License Widget]][License] [![Chat Widget]][Chat] [![Documentation Widget]][Documentation]
 
-The [fastest](#benchmarks) web framework for Go.
+The fastest web framework for Go.
 
 
-[![Alt: The results have been updated on July 1, 2016](https://raw.githubusercontent.com/smallnest/go-web-framework-benchmark/master/benchmark.png)](https://github.com/smallnest/go-web-framework-benchmark)
+[![Alt: Benchmark results with pipeline and 500ms processing time](https://raw.githubusercontent.com/iris-contrib/website/gh-pages/assets/benchmark_horizontal_transparent.png)](#benchmarks)
 
 
 
@@ -28,7 +28,7 @@ func main() {
 	iris.Listen(":8080")
 }
 ```
-> Learn more about [render](https://kataras.gitbooks.io/iris/content/render.html)
+> Learn more about [render](http://iris-go.com/assets/v3-book/iris.pdf)
 
 ```bash
 $ iris run render_json.go
@@ -57,7 +57,7 @@ Features
 ------------
 - Focus on high performance
 - Robust routing supports static and wildcard subdomains
-- View system supporting [6+](https://kataras.gitbooks.io/iris/content/render_templates.html) template engines
+- View system supporting 6+ template engines
 - Highly scalable Websocket API with custom events
 - Sessions support with GC, memory & redis providers
 - Middlewares & Plugins were never be easier
@@ -76,27 +76,27 @@ Features
 
 | Name        | Description           | Usage  |
 | ------------------|:---------------------:|-------:|
-| [Basicauth Middleware ](https://github.com/iris-contrib/middleware/tree/master/basicauth)      | HTTP Basic authentication                  |[example 1](https://github.com/iris-contrib/examples/blob/master/middleware_basicauth_1/main.go), [example 2](https://github.com/iris-contrib/examples/blob/master/middleware_basicauth_2/main.go), [book section](https://kataras.gitbooks.io/iris/content/basic-authentication.html)  |
-| [JWT Middleware ](https://github.com/iris-contrib/middleware/tree/master/jwt)      | JSON Web Tokens                  |[example ](https://github.com/iris-contrib/examples/blob/master/middleware_jwt/main.go), [book section](https://kataras.gitbooks.io/iris/content/jwt.html)  |
+| [Basicauth Middleware ](https://github.com/iris-contrib/middleware/tree/master/basicauth)      | HTTP Basic authentication                  |[example 1](https://github.com/iris-contrib/examples/tree/v3/middleware_basicauth_1/main.go), [example 2](https://github.com/iris-contrib/examples/tree/v3/middleware_basicauth_2/main.go), [book section](https://kataras.gitbooks.io/iris/content/basic-authentication.html)  |
+| [JWT Middleware ](https://github.com/iris-contrib/middleware/tree/master/jwt)      | JSON Web Tokens                  |[example ](https://github.com/iris-contrib/examples/tree/v3/middleware_jwt/main.go), [book section](https://kataras.gitbooks.io/iris/content/jwt.html)  |
 | [Cors Middleware ](https://github.com/iris-contrib/middleware/tree/master/cors)      | Cross Origin Resource Sharing W3 specification   | [how to use ](https://github.com/iris-contrib/middleware/tree/master/cors#how-to-use)  |
-| [Secure Middleware ](https://github.com/iris-contrib/middleware/tree/master/secure) |  Facilitates some quick security wins      | [example](https://github.com/iris-contrib/examples/blob/master/middleware_secure/main.go)  |
+| [Secure Middleware ](https://github.com/iris-contrib/middleware/tree/master/secure) |  Facilitates some quick security wins      | [example](https://github.com/iris-contrib/examples/tree/v3/middleware_secure/main.go)  |
 | [I18n Middleware ](https://github.com/iris-contrib/middleware/tree/master/i18n)      | Simple internationalization       | [example](https://github.com/iris-contrib/examples/tree/master/middleware_internationalization_i18n), [book section](https://kataras.gitbooks.io/iris/content/middleware-internationalization-and-localization.html)  |
-| [Recovery Middleware ](https://github.com/iris-contrib/middleware/tree/master/recovery) | Safety recover the station from panic       | [example](https://github.com/iris-contrib/examples/blob/master/middleware_recovery/main.go)  |
-| [Logger Middleware ](https://github.com/iris-contrib/middleware/tree/master/logger)      | Logs every request       | [example](https://github.com/iris-contrib/examples/blob/master/middleware_logger/main.go), [book section](https://kataras.gitbooks.io/iris/content/logger.html)  |
+| [Recovery Middleware ](https://github.com/iris-contrib/middleware/tree/master/recovery) | Safety recover the station from panic       | [example](https://github.com/iris-contrib/examples/tree/v3//middleware_recovery/main.go)  |
+| [Logger Middleware ](https://github.com/iris-contrib/middleware/tree/master/logger)      | Logs every request       | [example](https://github.com/iris-contrib/examples/tree/v3/middleware_logger/main.go), [book section](https://kataras.gitbooks.io/iris/content/logger.html)  |
 | [Editor Plugin](https://github.com/iris-contrib/plugin/tree/master/editor)      | Alm-tools, a typescript online IDE/Editor | [book section](https://kataras.gitbooks.io/iris/content/plugin-editor.html) |
 | [Typescript Plugin](https://github.com/iris-contrib/plugin/tree/master/typescript)      | Auto-compile client-side typescript files      |   [book section](https://kataras.gitbooks.io/iris/content/plugin-typescript.html) |
 | [OAuth,OAuth2 Plugin](https://github.com/iris-contrib/plugin/tree/master/oauth) |  User Authentication was never be easier, supports >27 providers |    [example](https://github.com/iris-contrib/examples/tree/master/plugin_oauth_oauth2), [book section](https://kataras.gitbooks.io/iris/content/plugin-oauth.html) |
-| [Iris control Plugin](https://github.com/iris-contrib/plugin/tree/master/iriscontrol) |   Basic (browser-based) control over your Iris station |    [example](https://github.com/iris-contrib/examples/blob/master/plugin_iriscontrol/main.go), [book section](https://kataras.gitbooks.io/iris/content/plugin-iriscontrol.html) |
+| [Iris control Plugin](https://github.com/iris-contrib/plugin/tree/master/iriscontrol) |   Basic (browser-based) control over your Iris station |    [example](https://github.com/iris-contrib/examples/tree/v3/plugin_iriscontrol/main.go), [book section](https://kataras.gitbooks.io/iris/content/plugin-iriscontrol.html) |
 
 Docs & Community
 ------------
 
-<a href="https://www.gitbook.com/book/kataras/iris/details"><img align="right" width="185" src="https://raw.githubusercontent.com/iris-contrib/website/gh-pages/assets/book/cover_1.png"></a>
+<a href="http://iris-go.com/assets/v3-book/iris.pdf"><img align="right" width="185" src="https://raw.githubusercontent.com/iris-contrib/website/gh-pages/assets/book/cover_1.png"></a>
 
 
-- Read the [book](https://www.gitbook.com/book/kataras/iris/details) or [wiki](https://github.com/kataras/iris/wiki)
+- Read the [book](http://iris-go.com/assets/v3-book/iris.pdf)
 
-- Take a look at the [examples](https://github.com/iris-contrib/examples)
+- Take a look at the [examples](https://github.com/iris-contrib/examples/tree/v3)
 
 - [HISTORY](https://github.com//kataras/iris/tree/master/HISTORY.md) file is your best friend.
 
@@ -151,20 +151,14 @@ Read more about Semantic Versioning 2.0.0
 
 Todo
 ------------
-> for the next version 'v4'
-
-- [ ] Refactor & extend view engine, separate the engines from the main code base, easier for the community to create new view engines.
-- [ ] Create a router as optional plugin, for optional path parts. Its name, 'ryan', taken from the community-member and donator who requested this feature.
-- [ ] Extend the iris control plugin
-- [ ] Remove deprecated functions.
 
 > completed for release 'v3'
 
-- [x] [Dynamic/Wildcard subdomains](https://kataras.gitbooks.io/iris/content/subdomains.html)
-- [x] [Create server & client side](https://kataras.gitbooks.io/iris/content/package-websocket.html) (js) library for .on('event', func action(...)) / .emit('event')... (like socket.io but supports only websocket)
-- [x] [Create a view engines system](https://kataras.gitbooks.io/iris/content/render_templates.html) supporting different types of template engines
+- [x] Dynamic/Wildcard subdomains
+- [x] Create server & client side (js) library for .on('event', func action(...)) / .emit('event')... (like socket.io but supports only websocket)
+- [x] Create a view engines system supporting different types of template engines
 - [x] Extend, test and publish to the public the [Iris' cmd](https://github.com/kataras/iris/tree/master/iris)[*](https://github.com/kataras/rizla)
-- [x] Complete the API tests, community can help also, tests are located [here](https://github.com/iris-contrib/tests).
+- [x] Complete the API tests, community tests are located to other location, [here](https://github.com/iris-contrib/tests).
 
 
 If you're **willing to donate** click [here](DONATIONS.md)!
@@ -200,7 +194,7 @@ License can be found [here](LICENSE).
 [Report Widget]: https://img.shields.io/badge/report%20card-A%2B-F44336.svg?style=flat-square
 [Report]: http://goreportcard.com/report/kataras/iris
 [Documentation Widget]: https://img.shields.io/badge/documentation-reference-5272B4.svg?style=flat-square
-[Documentation]: https://www.gitbook.com/book/kataras/iris/details
+[Documentation]: http://iris-go.com/assets/v3-book/iris.pdf
 [Language Widget]: https://img.shields.io/badge/powered_by-Go-3362c2.svg?style=flat-square
 [Language]: http://golang.org
 [Platform Widget]: https://img.shields.io/badge/platform-Any--OS-gray.svg?style=flat-square

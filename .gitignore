@@ -21,6 +21,4 @@ _examples/*.so
 *.a
 *.so
 build.bat
-tools/*
-docs/*
-/vendor/*
+tools/*/vendor/*
