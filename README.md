@@ -43,7 +43,7 @@ Installation
 The only requirement is the [Go Programming Language](https://golang.org/dl), at least v1.6
 
 ```bash
-$ go get -u github.com/kataras/iris/iris
+$ go get gopkg.in/kataras/iris.v3
 ```
 
  >If you have installation issues and you are connected to the Internet through China please, [click here](https://kataras.gitbooks.io/iris/content/install.html).
