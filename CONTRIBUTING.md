@@ -1,39 +1,33 @@
-## Contributing Issues
+# Contributing
 
-### Before Submitting an Issue
-First, please do a search in open issues to see if the issue or feature request has already been filed. If there is an issue add your comments to this issue.
+First of all read our [Code of Conduct](https://github.com/kataras/iris/blob/master/CODE_OF_CONDUCT.md).
 
-The Iris project is distributed across multiple repositories, try to file the issue against the correct repository,
+## PR
 
-- [Iris - core](https://github.com/kataras/iris/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue)
-- [Iris - gitbook](https://github.com/iris-contrib/gitbook/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue)
-- [Iris - examples](https://github.com/iris-contrib/examples/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue)
-- [Iris - tests](https://github.com/iris-contrib/tests/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue)
-- [Iris - middleware](https://github.com/iris-contrib/middleware/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue)
-- [Iris - plugin](https://github.com/iris-contrib/plugin/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue)
-- [Iris - graceful](https://github.com/iris-contrib/graceful/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue)
-- [Iris - mail](https://github.com/iris-contrib/mail/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue).
+1. Open a new [issue](https://github.com/kataras/iris/issues/new)
+    * Write version of your local Iris.
+    * Write version of your local Go programming language.
+    * Describe your problem, what did you expect to see and what you see instead.
+        * If it's a feature request, describe your idea as better as you can
+          * optionally, navigate to the [chat](https://chat.iris-go.com) to push other members to participate and share their thoughts about your brilliant idea.
+2. Fork the [repository](https://github.com/kataras/iris).
+3. Make your changes.
+4. Compare & Push the PR from [here](https://github.com/kataras/iris/compare).
 
+## Translate
 
-If your issue is a question then please ask the question on [community chat][Chat].
+We need your help with translations into your native language.
 
-## Writing Good Bug Reports and Feature Requests
+Iris needs your help, please think about contributing to the translation of the [README](README.md) and https://iris-go.com, you will be rewarded.
 
-File a single issue per problem and feature request, do not file combo issues.
+Instructions can be found at: https://github.com/kataras/iris/issues/796
 
-The more information you can provide, the more likely someone will be successful reproducing the issue and finding a fix. Therefore:
+## Share
 
-* Provide reproducable steps, what the result of the steps was, and what you would have expected.
-* Description of what you expect to happen
-* Animated GIFs
-* Code that demonstrates the issue
-* Version of Iris
-* Errors in the Terminal/Console
-* When you have glide/godep installed, can you reproduce the issue when starting Iris' station without these?
+### Writing
 
-## Contributing Fixes
-If you are interested in fixing issues and contributing directly to the Iris base, please see the document [How to Contribute](https://github.com/iris-contrib/wiki/blob/master/How-to-Contribute.md).
+Write an article about Iris in https://medium.com , https://dev.to or if you're being a hackathon at https://hackernoon.com, some [examples](https://github.com/kataras/iris/wiki/Publications).
 
-[Chat]: https://kataras.rocket.chat/channel/iris
-[ChatMain]: https://kataras.rocket.chat/channel/iris
-[ChatAlternative]: https://gitter.im/kataras/iris
+### Social networks
+
+If you're part of any social network, do a post(or tweet if twitter) about Iris and what you love about it, many examples can be found, the most recent one is [that](https://twitter.com/DorMoshe/status/1154486477247508480).
